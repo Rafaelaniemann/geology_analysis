@@ -1,4 +1,4 @@
-# geology_analysis
+# Geology_analysis
 
 Um pacote modular para análise comparativa de dados geológicos de campo, métodos de processamento e planos estruturais. Este repositório fornece código reutilizável, exemplos e infraestrutura para executar a análise de forma reprodutível em diferentes máquinas e áreas de estudo.
 
