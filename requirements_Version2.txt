@@ -1,0 +1,13 @@
+numpy
+pandas
+geopandas
+matplotlib
+seaborn
+scipy
+mplstereonet
+shapely
+openpyxl
+fiona
+pyproj
+rasterio
+pytest
