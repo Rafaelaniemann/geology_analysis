@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+data/
+results/
+
+# OS
+.DS_Store
+Thumbs.db
