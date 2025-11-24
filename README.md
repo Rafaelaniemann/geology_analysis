@@ -83,29 +83,6 @@ ConfigB,300,45,2
   - src/geology_analysis/viz.py — parâmetros de plotagem e export.
 - Para reutilizar em outra área, adapte o mapeamento de colunas e os thresholds estatísticos, ou forneça um arquivo de configuração (YAML/JSON) que mapeie nomes de colunas e parâmetros.
 
-## Desenvolvimento
-- Testes:
-```bash
-pytest -q
-```
-- Lint: configure e rode black/flake8 conforme preferir.
-- Estruture mudanças em branches e abra PRs para revisão.
-
-## Continuous Integration
-- Há um workflow de exemplo (.github/workflows/ci.yml) que instala dependências e roda os testes em pushes/PRs. Ajuste conforme a política do projeto.
-
-## Licença
-- MIT (ver arquivo LICENSE). Sinta-se livre para adaptar e usar em trabalhos acadêmicos ou aplicações industriais — cite conforme apropriado.
-
-## Como citar / publicar
-Para garantir reprodutibilidade em publicações:
-- Crie um release no GitHub e archive-o no Zenodo para obter um DOI.
-- Inclua versão do pacote (src/geology_analysis/__init__.py -> __version__) no seu artigo.
-
-## Contribuindo
-- Abra issues para bugs e feature requests.
-- Envie PRs pequenas e ative os testes locais.
-- Veja CONTRIBUTING.md (se existir) para padrões de commit e revisão.
 
 ## Ajuda rápida / Troubleshooting
 - Se geopandas ou fiona falharem na instalação, use o ambiente conda/conda-forge:
